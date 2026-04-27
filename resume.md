@@ -8,8 +8,8 @@ Taipei, Taiwan | [r12944044@csie.ntu.edu.tw](mailto:r12944044@csie.ntu.edu.tw) |
 
 Oct. 2025 - Present
 
-- Designed and implemented a reliable distributed system, improving end-to-end microservice orchestration success rate to 99%
-- Improved production observability across distributed microservices by instrumenting services with **OpenTelemetry** and standardizing trace and metric collection
+- Designed and implemented a reliable distributed system, improving the end-to-end microservice orchestration success rate to 99%
+- Improved production observability across distributed microservices by instrumenting services with **OpenTelemetry** and standardizing tracing and metrics
 - Built cloud-native backend infrastructure on **AWS** using **Terraform**, **Kubernetes**, **Helm**, **Prometheus**, and **Grafana** to support repeatable deployment and operational monitoring
 
 ### Software Engineer Intern, Hewlett-Packard, Taipei
@@ -23,8 +23,8 @@ Jul. 2024 - Jul. 2025
 
 Feb. 2024 - Jul. 2025
 
-- Improved RISC-V Vector Extension workload performance by 2%-3% by designing and implementing custom instructions in LLVM
-- Validated custom instruction behavior and performance impact by building QEMU simulations for architecture-level analysis
+- Improved RISC-V Vector Extension workload performance by 2%–3% through the design and implementation of custom LLVM instructions
+- Validated custom instruction behavior and performance impact with QEMU simulations for architecture-level analysis
 
 ## Projects
 
@@ -48,7 +48,7 @@ Feb. 2024 - Jul. 2025
 
 ### KubeRay
 
-Open-source k8s operator designed to simplify the deployment and management of Ray applications
+Open-source Kubernetes operator designed to simplify the deployment and management of Ray applications.
 
 - **[PR #4038](https://github.com/ray-project/kuberay/pull/4038):** Improved test maintainability by consolidating duplicated support utilities across KubeRay test files
 - **[PR #4044](https://github.com/ray-project/kuberay/pull/4044):** Modernized Go test code by removing redundant range variable captures using Go 1.22 scoped iteration semantics
@@ -57,8 +57,7 @@ Open-source k8s operator designed to simplify the deployment and management of R
 
 Durable Execution platform that abstracts away the complexity of building distributed systems.
 
-- **[PR #813](https://github.com/temporalio/temporal/pull/813):** Improved test code maintainability by refactoring shared test support logic in Temporal's Go codebase
-
+- **[PR #813](https://github.com/temporalio/helm-charts/pull/813):** Fixed Helm chart testing and added support for test pod annotations
 
 ## Education
 
