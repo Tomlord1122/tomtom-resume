@@ -9,8 +9,8 @@ Taipei, Taiwan | [r12944044@csie.ntu.edu.tw](mailto:r12944044@csie.ntu.edu.tw) |
 Oct. 2025 - Present
 
 - Designed and implemented a reliable distributed system, improving end-to-end microservice orchestration success rate to 99%
-- Improved production observability across distributed microservices by instrumenting services with OpenTelemetry and standardizing trace and metric collection
-- Built cloud-native backend infrastructure on AWS using Terraform, Kubernetes, Helm, Prometheus, and Grafana to support repeatable deployment and operational monitoring
+- Improved production observability across distributed microservices by instrumenting services with **OpenTelemetry** and standardizing trace and metric collection
+- Built cloud-native backend infrastructure on **AWS** using **Terraform**, **Kubernetes**, **Helm**, **Prometheus**, and **Grafana** to support repeatable deployment and operational monitoring
 
 ### Software Engineer Intern, Hewlett-Packard, Taipei
 

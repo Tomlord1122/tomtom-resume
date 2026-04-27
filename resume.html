@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HSIU-CHI LIU</title>
+  <style>:root {
+  --paper: #ffffff;
+  --ink: #000000;
+  --rule: #7b7b7b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #efefef;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 1.08;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resume {
+  background: var(--paper);
+  margin: 24px auto;
+  max-width: 8.5in;
+  min-height: 11in;
+  padding: 0.16in 0.34in 0.18in;
+}
+
+.resume-header {
+  text-align: center;
+}
+
+.resume-header h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin: 0 0 8px;
+}
+
+.resume-header p {
+  margin: 0;
+}
+
+.resume-section {
+  padding-top: 6px;
+}
+
+.resume-section h2 {
+  border-bottom: 1px solid var(--rule);
+  font-size: 1.16rem;
+  line-height: 1;
+  margin: 0 0 3px;
+  padding-bottom: 2px;
+}
+
+.section-body > :first-child {
+  margin-top: 0;
+}
+
+.section-body > :last-child {
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 0.94rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 6px 0 0;
+}
+
+.resume-date {
+  margin-top: -1rem;
+  text-align: right;
+}
+
+.resume-date code {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+p {
+  margin: 2px 0;
+}
+
+ul {
+  margin: 2px 0 3px;
+  padding-left: 1.1rem;
+}
+
+li {
+  margin: 0 0 3px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+code {
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  padding: 0;
+}
+
+@media (max-width: 760px) {
+  html {
+    background: var(--paper);
+    font-size: 14px;
+  }
+
+  .resume {
+    margin: 0;
+    min-height: auto;
+    padding: 18px 18px 24px;
+  }
+
+  .resume-header h1 {
+    font-size: 2rem;
+  }
+
+  .resume-date {
+    margin-top: 2px;
+    text-align: left;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0;
+    size: letter;
+  }
+
+  html,
+  body {
+    background: white;
+  }
+
+  .resume {
+    margin: 0;
+    max-width: none;
+    min-height: 11in;
+    padding: 0.16in 0.34in 0.18in;
+  }
+
+  .resume-section {
+    break-inside: avoid;
+  }
+}
+</style>
+</head>
+<body>
+<article class="resume">
+<header class="resume-header">
+<h1>HSIU-CHI LIU</h1>
+<p>Taipei, Taiwan | <a href="mailto:r12944044@csie.ntu.edu.tw">r12944044@csie.ntu.edu.tw</a> | +886-905-127-972 | <a href="https://www.linkedin.com/">LinkedIn</a> | <a href="https://github.com/Tomlord1122">github.com/Tomlord1122</a></p>
+
+</header>
+<main>
+<section class="resume-section" aria-labelledby="section-experience">
+<h2 id="section-experience">Experience</h2>
+
+<div class="section-body">
+<h3>Software Engineer, Trend Micro, Taipei</h3>
+<p class="resume-date">Oct. 2025 - Present</p>
+<ul>
+<li>Designed and implemented a reliable distributed system, improving end-to-end microservice orchestration success rate to 99%</li>
+<li>Improved production observability across distributed microservices by instrumenting services with <strong>OpenTelemetry</strong> and standardizing trace and metric collection</li>
+<li>Built cloud-native backend infrastructure on <strong>AWS</strong> using <strong>Terraform</strong>, <strong>Kubernetes</strong>, <strong>Helm</strong>, <strong>Prometheus</strong>, and <strong>Grafana</strong> to support repeatable deployment and operational monitoring</li>
+</ul>
+<h3>Software Engineer Intern, Hewlett-Packard, Taipei</h3>
+<p class="resume-date">Jul. 2024 - Jul. 2025</p>
+<ul>
+<li>Built a RESTful data integration API using Go and Gin, enabling internal systems to exchange departmental data through a unified backend interface</li>
+<li>Improved internal knowledge retrieval by developing a Retrieval-Augmented Generation (RAG) database for faster access to department-specific information</li>
+</ul>
+<h3>Industry–Academia Research, NTU &amp; MediaTek MARC, Taipei</h3>
+<p class="resume-date">Feb. 2024 - Jul. 2025</p>
+<ul>
+<li>Improved RISC-V Vector Extension workload performance by 2%-3% by designing and implementing custom instructions in LLVM</li>
+<li>Validated custom instruction behavior and performance impact by building QEMU simulations for architecture-level analysis</li>
+</ul>
+
+</div>
+</section>
+<section class="resume-section" aria-labelledby="section-projects">
+<h2 id="section-projects">Projects</h2>
+
+<div class="section-body">
+<h3><a href="https://github.com/orgs/Cometline/repositories">Cometline (Personal Side Project)</a></h3>
+<ul>
+<li>Built a desktop AI orchestration platform that abstracts multiple LLM providers behind a unified interface, enabling chat, memory, web search, streaming responses, and tool execution</li>
+<li>Enabled advanced AI workflows by supporting coding agent capabilities and computer-use automation for complex task execution across local desktop environments</li>
+<li>Unified TUI, CLI, and desktop experiences to provide consistent AI orchestration workflows across terminal and graphical environments</li>
+</ul>
+<h3><a href="https://github.com/Tomlord1122/go-symphony">go-symphony (Personal Side Project)</a></h3>
+<ul>
+<li>Reduced Go web service setup effort by building an LLM-friendly CLI with Cobra and Bubble Tea for opinionated Gin, PostgreSQL, Supabase, and sqlc scaffolding</li>
+<li>Accelerated full-stack project bootstrapping by adding out-of-the-box Supabase initialization and optional SvelteKit or Next.js frontend scaffolds</li>
+</ul>
+<h3><a href="https://github.com/Tomlord1122/tomlord.io">Personal Blog with Comment System (Personal Side Project)</a></h3>
+<ul>
+<li>Built a full-stack blog comment system using Go, Gin, sqlc, and PostgreSQL to support persistent user discussions</li>
+<li>Enabled real-time user interaction by implementing WebSocket-based comment updates and OAuth-secured authentication</li>
+</ul>
+
+</div>
+</section>
+<section class="resume-section" aria-labelledby="section-open-source-contribution">
+<h2 id="section-open-source-contribution">Open Source Contribution</h2>
+
+<div class="section-body">
+<h3>KubeRay</h3>
+<p>Open-source k8s operator designed to simplify the deployment and management of Ray applications</p>
+<ul>
+<li><strong><a href="https://github.com/ray-project/kuberay/pull/4038">PR #4038</a>:</strong> Improved test maintainability by consolidating duplicated support utilities across KubeRay test files</li>
+<li><strong><a href="https://github.com/ray-project/kuberay/pull/4044">PR #4044</a>:</strong> Modernized Go test code by removing redundant range variable captures using Go 1.22 scoped iteration semantics</li>
+</ul>
+<h3>Temporal</h3>
+<p>Durable Execution platform that abstracts away the complexity of building distributed systems.</p>
+<ul>
+<li><strong><a href="https://github.com/temporalio/temporal/pull/813">PR #813</a>:</strong> Improved test code maintainability by refactoring shared test support logic in Temporal’s Go codebase</li>
+</ul>
+
+</div>
+</section>
+<section class="resume-section" aria-labelledby="section-education">
+<h2 id="section-education">Education</h2>
+
+<div class="section-body">
+<h3>National Taiwan University, M.S. in Computer Science</h3>
+<p class="resume-date">Sep. 2023 - Jul. 2025</p>
+<ul>
+<li><strong>Relevant Knowledge:</strong> Advanced Compiler, Operating Systems Design and Implementation, Computer Vision with Deep Learning, Web Development</li>
+</ul>
+
+</div>
+</section>
+<section class="resume-section" aria-labelledby="section-skills">
+<h2 id="section-skills">Skills</h2>
+
+<div class="section-body">
+<ul>
+<li><strong>Programming Languages:</strong> <strong>Golang</strong> (primary); Python, C/C++, TypeScript (development experience)</li>
+<li><strong>Technologies &amp; Tools:</strong> Docker, Kubernetes, Terraform, AWS, PostgreSQL, Svelte, React</li>
+</ul>
+
+</div>
+</section>
+</main>
+</article>
+</body>
+</html>
