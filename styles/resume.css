@@ -1,0 +1,156 @@
+:root {
+  --paper: #ffffff;
+  --ink: #000000;
+  --rule: #7b7b7b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #efefef;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resume {
+  background: var(--paper);
+  margin: 24px auto;
+  max-width: 8.5in;
+  min-height: 11in;
+  padding: 0.17in 0.38in 0.24in;
+}
+
+.resume-header {
+  text-align: center;
+}
+
+.resume-header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin: 0 0 12px;
+}
+
+.resume-header p {
+  margin: 0;
+}
+
+.resume-section {
+  padding-top: 9px;
+}
+
+.resume-section h2 {
+  border-bottom: 1px solid var(--rule);
+  font-size: 1.25rem;
+  line-height: 1;
+  margin: 0 0 5px;
+  padding-bottom: 3px;
+}
+
+.section-body > :first-child {
+  margin-top: 0;
+}
+
+.section-body > :last-child {
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 9px 0 0;
+}
+
+.resume-date {
+  margin-top: -1.05rem;
+  text-align: right;
+}
+
+.resume-date code {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+p {
+  margin: 3px 0;
+}
+
+ul {
+  margin: 3px 0 4px;
+  padding-left: 1.1rem;
+}
+
+li {
+  margin: 0 0 3px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+code {
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  padding: 0;
+}
+
+@media (max-width: 760px) {
+  html {
+    background: var(--paper);
+    font-size: 14px;
+  }
+
+  .resume {
+    margin: 0;
+    min-height: auto;
+    padding: 18px 18px 24px;
+  }
+
+  .resume-header h1 {
+    font-size: 2rem;
+  }
+
+  .resume-date {
+    margin-top: 2px;
+    text-align: left;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0;
+    size: letter;
+  }
+
+  html,
+  body {
+    background: white;
+  }
+
+  .resume {
+    margin: 0;
+    max-width: none;
+    min-height: 11in;
+    padding: 0.17in 0.38in 0.24in;
+  }
+
+  .resume-section {
+    break-inside: avoid;
+  }
+}

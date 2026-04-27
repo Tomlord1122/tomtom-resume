@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm run build:html && pnpm run build:pdf",
+    "build:html": "node scripts/render.mjs html",
+    "build:pdf": "node scripts/render.mjs pdf",
+    "dev": "pnpm run build:html && concurrently \"pnpm run dev:watch\" \"pnpm run dev:serve\"",
+    "dev:watch": "nodemon --watch resume.md --watch styles --ext md,css --exec \"pnpm run build:html\"",
+    "dev:serve": "live-server --wait=500 --open=resume.html",
+    "validate": "node scripts/render.mjs validate"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.3",
+    "concurrently": "^9.2.1",
+    "live-server": "^1.2.2",
+    "markdown-it": "^14.1.0",
+    "nodemon": "^3.1.10",
+    "puppeteer": "^24.31.0"
+  }
+}

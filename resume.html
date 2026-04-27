@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HSIU-CHI LIU</title>
+  <style>:root {
+  --paper: #ffffff;
+  --ink: #000000;
+  --rule: #7b7b7b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #efefef;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resume {
+  background: var(--paper);
+  margin: 24px auto;
+  max-width: 8.5in;
+  min-height: 11in;
+  padding: 0.17in 0.38in 0.24in;
+}
+
+.resume-header {
+  text-align: center;
+}
+
+.resume-header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin: 0 0 12px;
+}
+
+.resume-header p {
+  margin: 0;
+}
+
+.resume-section {
+  padding-top: 9px;
+}
+
+.resume-section h2 {
+  border-bottom: 1px solid var(--rule);
+  font-size: 1.25rem;
+  line-height: 1;
+  margin: 0 0 5px;
+  padding-bottom: 3px;
+}
+
+.section-body > :first-child {
+  margin-top: 0;
+}
+
+.section-body > :last-child {
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 9px 0 0;
+}
+
+.resume-date {
+  margin-top: -1.05rem;
+  text-align: right;
+}
+
+.resume-date code {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+p {
+  margin: 3px 0;
+}
+
+ul {
+  margin: 3px 0 4px;
+  padding-left: 1.1rem;
+}
+
+li {
+  margin: 0 0 3px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+code {
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  padding: 0;
+}
+
+@media (max-width: 760px) {
+  html {
+    background: var(--paper);
+    font-size: 14px;
+  }
+
+  .resume {
+    margin: 0;
+    min-height: auto;
+    padding: 18px 18px 24px;
+  }
+
+  .resume-header h1 {
+    font-size: 2rem;
+  }
+
+  .resume-date {
+    margin-top: 2px;
+    text-align: left;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0;
+    size: letter;
+  }
+
+  html,
+  body {
+    background: white;
+  }
+
+  .resume {
+    margin: 0;
+    max-width: none;
+    min-height: 11in;
+    padding: 0.17in 0.38in 0.24in;
+  }
+
+  .resume-section {
+    break-inside: avoid;
+  }
+}
+</style>
+</head>
+<body>
+<article class="resume">
+<header class="resume-header">
+<h1>HSIU-CHI LIU</h1>
+<p>Taipei, Taiwan | <a href="mailto:r12944044@csie.ntu.edu.tw">r12944044@csie.ntu.edu.tw</a> | +886-905-127-972 | <a href="https://www.linkedin.com/">LinkedIn</a> | <a href="https://github.com/Tomlord1122">github.com/Tomlord1122</a></p>
+
+</header>
+<main>
+<section class="resume-section" aria-labelledby="section-experience">
+<h2 id="section-experience">Experience</h2>
+
+<div class="section-body">
+<h3>Software Engineer, Trend Micro, Taipei</h3>
+<p class="resume-date">Oct. 2025 - Present</p>
+<ul>
+<li>Designed and implemented a reliable distributed system, improving end-to-end microservice orchestration success rate to 99%</li>
+<li>Integrated OpenTelemetry (OTel) to strengthen observability across the distributed microservices stack</li>
+<li>Built backend infrastructure on AWS with Terraform; deployed services on Kubernetes via Helm and ran Prometheus and Grafana for metrics and dashboards</li>
+</ul>
+<h3>Software Engineer Intern, Hewlett-Packard, Taipei</h3>
+<p class="resume-date">Jul. 2024 - Jul. 2025</p>
+<ul>
+<li>Designed and implemented a RESTful API using Golang and Gin for seamless data integration across departmental systems</li>
+<li>Developed an internal Retrieval-Augmented Generation (RAG) database to enable fast and efficient data retrieval</li>
+</ul>
+<h3>Industry–Academia Research, NTU &amp; MediaTek MARC, Taipei</h3>
+<p class="resume-date">Feb. 2024 - Jul. 2025</p>
+<ul>
+<li>Designed and implemented custom instructions in LLVM, improving performance by 2%-3% for RISC-V Vector Extension Architecture</li>
+<li>Simulated custom instructions in QEMU for performance analysis and validation</li>
+</ul>
+
+</div>
+</section>
+<section class="resume-section" aria-labelledby="section-projects">
+<h2 id="section-projects">Projects</h2>
+
+<div class="section-body">
+<h3>go-symphony (Personal Side Project)</h3>
+<ul>
+<li>Built an LLM-friendly CLI (Cobra, Bubble Tea) for opinionated Gin + PostgreSQL + Supabase + sqlc scaffolding</li>
+<li>Added out-of-the-box Supabase setup and optional SvelteKit or Next.js frontend scaffolds</li>
+</ul>
+<h3>Personal Blog with Comment System (Personal Side Project)</h3>
+<ul>
+<li>Built a personal blog comment system with Golang Gin, sqlc, and PostgreSQL, covering backend to database integration</li>
+<li>Enabled real-time comment updates via WebSocket and secured authentication with OAuth</li>
+<li>Developed an interactive frontend using SvelteKit</li>
+<li>Deployed on AWS EC2, RDS, and Vercel for scalability and reliability</li>
+</ul>
+
+</div>
+</section>
+<section class="resume-section" aria-labelledby="section-open-source-contribution">
+<h2 id="section-open-source-contribution">Open Source Contribution</h2>
+
+<div class="section-body">
+<h3>KubeRay</h3>
+<p>Open-source k8s operator designed to simplify the deployment and management of Ray applications</p>
+<ul>
+<li><strong><a href="https://github.com/ray-project/kuberay/pull/4038">PR #4038</a>:</strong> Refactored test support files to improve maintainability by consolidating common utility functions</li>
+<li><strong><a href="https://github.com/ray-project/kuberay/pull/4044">PR #4044</a>:</strong> Refactored redundant range variable captures, utilizing Go 1.22’s scoped iteration</li>
+</ul>
+<h3>Temporal</h3>
+<p>Durable Execution platform that abstracts away the complexity of building distributed systems.</p>
+<ul>
+<li><strong><a href="https://github.com/temporalio/temporal/pull/813">PR #813</a>:</strong> Refactored test support files to improve maintainability by consolidating common utility functions</li>
+</ul>
+
+</div>
+</section>
+<section class="resume-section" aria-labelledby="section-education">
+<h2 id="section-education">Education</h2>
+
+<div class="section-body">
+<h3>National Taiwan University, M.S. in Computer Science</h3>
+<p class="resume-date">Sep. 2023 - Jul. 2025</p>
+<ul>
+<li><strong>Relevant Knowledge:</strong> Advanced Compiler, Operating Systems Design and Implementation, Computer Vision with Deep Learning, Web Development</li>
+</ul>
+
+</div>
+</section>
+<section class="resume-section" aria-labelledby="section-skills">
+<h2 id="section-skills">Skills</h2>
+
+<div class="section-body">
+<ul>
+<li><strong>Programming Languages:</strong> <strong>Golang</strong> (primary); Python, C/C++, TypeScript (development experience)</li>
+<li><strong>Technologies &amp; Tools:</strong> Docker, K8s, Terraform, AWS, PostgreSQL, Svelte, React,</li>
+</ul>
+
+</div>
+</section>
+</main>
+</article>
+</body>
+</html>
