@@ -61,7 +61,7 @@ a {
 
 .resume-section h2 {
   border-bottom: 1px solid var(--rule);
-  font-size: 1.16rem;
+  font-size: 1.25rem;
   line-height: 1;
   margin: 0 0 3px;
   padding-bottom: 2px;
@@ -76,7 +76,7 @@ a {
 }
 
 h3 {
-  font-size: 0.94rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.1;
   margin: 6px 0 0;
@@ -96,13 +96,18 @@ p {
   margin: 2px 0;
 }
 
+.section-body p:not(.resume-date),
+.section-body ul {
+  margin-left: 0.12in;
+}
+
 ul {
   margin: 2px 0 3px;
   padding-left: 1.1rem;
 }
 
 li {
-  margin: 0 0 3px;
+  margin: 0 0 4px;
 }
 
 strong {
@@ -177,8 +182,8 @@ code {
 <h3>Software Engineer, Trend Micro, Taipei</h3>
 <p class="resume-date">Oct. 2025 - Present</p>
 <ul>
-<li>Designed and implemented a reliable distributed system, improving end-to-end microservice orchestration success rate to 99%</li>
-<li>Improved production observability across distributed microservices by instrumenting services with <strong>OpenTelemetry</strong> and standardizing trace and metric collection</li>
+<li>Designed and implemented a reliable distributed system, improving the end-to-end microservice orchestration success rate to 99%</li>
+<li>Improved production observability across distributed microservices by instrumenting services with <strong>OpenTelemetry</strong> and standardizing tracing and metrics</li>
 <li>Built cloud-native backend infrastructure on <strong>AWS</strong> using <strong>Terraform</strong>, <strong>Kubernetes</strong>, <strong>Helm</strong>, <strong>Prometheus</strong>, and <strong>Grafana</strong> to support repeatable deployment and operational monitoring</li>
 </ul>
 <h3>Software Engineer Intern, Hewlett-Packard, Taipei</h3>
@@ -190,8 +195,8 @@ code {
 <h3>Industry–Academia Research, NTU &amp; MediaTek MARC, Taipei</h3>
 <p class="resume-date">Feb. 2024 - Jul. 2025</p>
 <ul>
-<li>Improved RISC-V Vector Extension workload performance by 2%-3% by designing and implementing custom instructions in LLVM</li>
-<li>Validated custom instruction behavior and performance impact by building QEMU simulations for architecture-level analysis</li>
+<li>Improved RISC-V Vector Extension workload performance by 2%–3% through the design and implementation of custom LLVM instructions</li>
+<li>Validated custom instruction behavior and performance impact with QEMU simulations for architecture-level analysis</li>
 </ul>
 
 </div>
@@ -203,8 +208,8 @@ code {
 <h3><a href="https://github.com/orgs/Cometline/repositories">Cometline (Personal Side Project)</a></h3>
 <ul>
 <li>Built a desktop AI orchestration platform that abstracts multiple LLM providers behind a unified interface, enabling chat, memory, web search, streaming responses, and tool execution</li>
-<li>Enabled advanced AI workflows by supporting coding agent capabilities and computer-use automation for complex task execution across local desktop environments</li>
-<li>Unified TUI, CLI, and desktop experiences to provide consistent AI orchestration workflows across terminal and graphical environments</li>
+<li>Enabled advanced AI workflows by <strong>supporting coding agent capabilities</strong> and <strong>computer-use automation</strong> for complex task execution across local desktop environments</li>
+<li>Unified <strong>TUI</strong>, <strong>CLI</strong>, and <strong>desktop experiences</strong> to provide consistent AI orchestration workflows across terminal and graphical environments</li>
 </ul>
 <h3><a href="https://github.com/Tomlord1122/go-symphony">go-symphony (Personal Side Project)</a></h3>
 <ul>
@@ -224,7 +229,7 @@ code {
 
 <div class="section-body">
 <h3>KubeRay</h3>
-<p>Open-source k8s operator designed to simplify the deployment and management of Ray applications</p>
+<p>Open-source Kubernetes operator designed to simplify the deployment and management of Ray applications.</p>
 <ul>
 <li><strong><a href="https://github.com/ray-project/kuberay/pull/4038">PR #4038</a>:</strong> Improved test maintainability by consolidating duplicated support utilities across KubeRay test files</li>
 <li><strong><a href="https://github.com/ray-project/kuberay/pull/4044">PR #4044</a>:</strong> Modernized Go test code by removing redundant range variable captures using Go 1.22 scoped iteration semantics</li>
@@ -232,7 +237,7 @@ code {
 <h3>Temporal</h3>
 <p>Durable Execution platform that abstracts away the complexity of building distributed systems.</p>
 <ul>
-<li><strong><a href="https://github.com/temporalio/temporal/pull/813">PR #813</a>:</strong> Improved test code maintainability by refactoring shared test support logic in Temporal’s Go codebase</li>
+<li><strong><a href="https://github.com/temporalio/helm-charts/pull/813">PR #813</a>:</strong> Fixed Helm chart testing and added support for test pod annotations</li>
 </ul>
 
 </div>

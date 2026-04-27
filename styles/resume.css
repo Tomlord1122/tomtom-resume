@@ -55,7 +55,7 @@ a {
 
 .resume-section h2 {
   border-bottom: 1px solid var(--rule);
-  font-size: 1.16rem;
+  font-size: 1.25rem;
   line-height: 1;
   margin: 0 0 3px;
   padding-bottom: 2px;
@@ -70,7 +70,7 @@ a {
 }
 
 h3 {
-  font-size: 0.94rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.1;
   margin: 6px 0 0;
@@ -90,13 +90,18 @@ p {
   margin: 2px 0;
 }
 
+.section-body p:not(.resume-date),
+.section-body ul {
+  margin-left: 0.12in;
+}
+
 ul {
   margin: 2px 0 3px;
   padding-left: 1.1rem;
 }
 
 li {
-  margin: 0 0 3px;
+  margin: 0 0 4px;
 }
 
 strong {

@@ -31,8 +31,8 @@ Feb. 2024 - Jul. 2025
 ### [Cometline (Personal Side Project)](https://github.com/orgs/Cometline/repositories)
 
 - Built a desktop AI orchestration platform that abstracts multiple LLM providers behind a unified interface, enabling chat, memory, web search, streaming responses, and tool execution
-- Enabled advanced AI workflows by supporting coding agent capabilities and computer-use automation for complex task execution across local desktop environments
-- Unified TUI, CLI, and desktop experiences to provide consistent AI orchestration workflows across terminal and graphical environments
+- Enabled advanced AI workflows by **supporting coding agent capabilities** and **computer-use automation** for complex task execution across local desktop environments
+- Unified **TUI**, **CLI**, and **desktop experiences** to provide consistent AI orchestration workflows across terminal and graphical environments
 
 ### [go-symphony (Personal Side Project)](https://github.com/Tomlord1122/go-symphony)
 
