@@ -12,8 +12,8 @@ html {
   background: #efefef;
   color: var(--ink);
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 15px;
-  line-height: 1.15;
+  font-size: 14px;
+  line-height: 1.08;
 }
 
 body {
@@ -30,7 +30,7 @@ a {
   margin: 24px auto;
   max-width: 8.5in;
   min-height: 11in;
-  padding: 0.17in 0.38in 0.24in;
+  padding: 0.16in 0.34in 0.18in;
 }
 
 .resume-header {
@@ -38,11 +38,11 @@ a {
 }
 
 .resume-header h1 {
-  font-size: 2.25rem;
+  font-size: 2.1rem;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1;
-  margin: 0 0 12px;
+  margin: 0 0 8px;
 }
 
 .resume-header p {
@@ -50,15 +50,15 @@ a {
 }
 
 .resume-section {
-  padding-top: 9px;
+  padding-top: 6px;
 }
 
 .resume-section h2 {
   border-bottom: 1px solid var(--rule);
-  font-size: 1.25rem;
+  font-size: 1.16rem;
   line-height: 1;
-  margin: 0 0 5px;
-  padding-bottom: 3px;
+  margin: 0 0 3px;
+  padding-bottom: 2px;
 }
 
 .section-body > :first-child {
@@ -70,14 +70,14 @@ a {
 }
 
 h3 {
-  font-size: 0.96rem;
+  font-size: 0.94rem;
   font-weight: 700;
   line-height: 1.1;
-  margin: 9px 0 0;
+  margin: 6px 0 0;
 }
 
 .resume-date {
-  margin-top: -1.05rem;
+  margin-top: -1rem;
   text-align: right;
 }
 
@@ -87,16 +87,16 @@ h3 {
 }
 
 p {
-  margin: 3px 0;
+  margin: 2px 0;
 }
 
 ul {
-  margin: 3px 0 4px;
+  margin: 2px 0 3px;
   padding-left: 1.1rem;
 }
 
 li {
-  margin: 0 0 3px;
+  margin: 0 0 2px;
 }
 
 strong {
@@ -147,7 +147,7 @@ code {
     margin: 0;
     max-width: none;
     min-height: 11in;
-    padding: 0.17in 0.38in 0.24in;
+    padding: 0.16in 0.34in 0.18in;
   }
 
   .resume-section {

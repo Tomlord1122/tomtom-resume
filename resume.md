@@ -9,36 +9,40 @@ Taipei, Taiwan | [r12944044@csie.ntu.edu.tw](mailto:r12944044@csie.ntu.edu.tw) |
 Oct. 2025 - Present
 
 - Designed and implemented a reliable distributed system, improving end-to-end microservice orchestration success rate to 99%
-- Integrated OpenTelemetry (OTel) to strengthen observability across the distributed microservices stack
-- Built backend infrastructure on AWS with Terraform; deployed services on Kubernetes via Helm and ran Prometheus and Grafana for metrics and dashboards
+- Improved production observability across distributed microservices by instrumenting services with OpenTelemetry and standardizing trace and metric collection
+- Built cloud-native backend infrastructure on AWS using Terraform, Kubernetes, Helm, Prometheus, and Grafana to support repeatable deployment and operational monitoring
 
 ### Software Engineer Intern, Hewlett-Packard, Taipei
 
 Jul. 2024 - Jul. 2025
 
-- Designed and implemented a RESTful API using Golang and Gin for seamless data integration across departmental systems
-- Developed an internal Retrieval-Augmented Generation (RAG) database to enable fast and efficient data retrieval
+- Built a RESTful data integration API using Go and Gin, enabling internal systems to exchange departmental data through a unified backend interface
+- Improved internal knowledge retrieval by developing a Retrieval-Augmented Generation (RAG) database for faster access to department-specific information
 
 ### Industry–Academia Research, NTU & MediaTek MARC, Taipei
 
 Feb. 2024 - Jul. 2025
 
-- Designed and implemented custom instructions in LLVM, improving performance by 2%-3% for RISC-V Vector Extension Architecture
-- Simulated custom instructions in QEMU for performance analysis and validation
+- Improved RISC-V Vector Extension workload performance by 2%-3% by designing and implementing custom instructions in LLVM
+- Validated custom instruction behavior and performance impact by building QEMU simulations for architecture-level analysis
 
 ## Projects
 
-### go-symphony (Personal Side Project)
+### [Cometline (Personal Side Project)](https://github.com/orgs/Cometline/repositories)
 
-- Built an LLM-friendly CLI (Cobra, Bubble Tea) for opinionated Gin + PostgreSQL + Supabase + sqlc scaffolding
-- Added out-of-the-box Supabase setup and optional SvelteKit or Next.js frontend scaffolds
+- Built a desktop AI orchestration platform that abstracts multiple LLM providers behind a unified interface, enabling chat, memory, web search, streaming responses, and tool execution
+- Enabled advanced AI workflows by supporting coding agent capabilities and computer-use automation for complex task execution across local desktop environments
+- Unified TUI, CLI, and desktop experiences to provide consistent AI orchestration workflows across terminal and graphical environments
 
-### Personal Blog with Comment System (Personal Side Project)
+### [go-symphony (Personal Side Project)](https://github.com/Tomlord1122/go-symphony)
 
-- Built a personal blog comment system with Golang Gin, sqlc, and PostgreSQL, covering backend to database integration
-- Enabled real-time comment updates via WebSocket and secured authentication with OAuth
-- Developed an interactive frontend using SvelteKit
-- Deployed on AWS EC2, RDS, and Vercel for scalability and reliability
+- Reduced Go web service setup effort by building an LLM-friendly CLI with Cobra and Bubble Tea for opinionated Gin, PostgreSQL, Supabase, and sqlc scaffolding
+- Accelerated full-stack project bootstrapping by adding out-of-the-box Supabase initialization and optional SvelteKit or Next.js frontend scaffolds
+
+### [Personal Blog with Comment System (Personal Side Project)](https://github.com/Tomlord1122/tomlord.io)
+
+- Built a full-stack blog comment system using Go, Gin, sqlc, and PostgreSQL to support persistent user discussions
+- Enabled real-time user interaction by implementing WebSocket-based comment updates and OAuth-secured authentication
 
 ## Open Source Contribution
 
@@ -46,14 +50,14 @@ Feb. 2024 - Jul. 2025
 
 Open-source k8s operator designed to simplify the deployment and management of Ray applications
 
-- **[PR #4038](https://github.com/ray-project/kuberay/pull/4038):** Refactored test support files to improve maintainability by consolidating common utility functions
-- **[PR #4044](https://github.com/ray-project/kuberay/pull/4044):** Refactored redundant range variable captures, utilizing Go 1.22's scoped iteration
+- **[PR #4038](https://github.com/ray-project/kuberay/pull/4038):** Improved test maintainability by consolidating duplicated support utilities across KubeRay test files
+- **[PR #4044](https://github.com/ray-project/kuberay/pull/4044):** Modernized Go test code by removing redundant range variable captures using Go 1.22 scoped iteration semantics
 
 ### Temporal
 
 Durable Execution platform that abstracts away the complexity of building distributed systems.
 
-- **[PR #813](https://github.com/temporalio/temporal/pull/813):** Refactored test support files to improve maintainability by consolidating common utility functions
+- **[PR #813](https://github.com/temporalio/temporal/pull/813):** Improved test code maintainability by refactoring shared test support logic in Temporal's Go codebase
 
 
 ## Education
@@ -67,4 +71,4 @@ Sep. 2023 - Jul. 2025
 ## Skills
 
 - **Programming Languages:** **Golang** (primary); Python, C/C++, TypeScript (development experience)
-- **Technologies & Tools:** Docker, K8s, Terraform, AWS, PostgreSQL, Svelte, React, 
+- **Technologies & Tools:** Docker, Kubernetes, Terraform, AWS, PostgreSQL, Svelte, React
