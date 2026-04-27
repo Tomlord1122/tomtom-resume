@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+  release:
+    types:
+      - published
+
+permissions:
+  contents: write
 
 jobs:
   build-pdf:
@@ -41,3 +47,9 @@ jobs:
         with:
           name: resume-pdf
           path: resume.pdf
+
+      - name: Upload PDF to release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.event.release.tag_name }}" resume.pdf --clobber
