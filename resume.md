@@ -1,6 +1,10 @@
 # HSIU-CHI LIU
 
-Taipei, Taiwan | [r12944044@csie.ntu.edu.tw](mailto:r12944044@csie.ntu.edu.tw) | +886-905-127-972 | [LinkedIn](https://www.linkedin.com/) | [github.com/Tomlord1122](https://github.com/Tomlord1122)
+Taipei, Taiwan | [r12944044@csie.ntu.edu.tw](mailto:r12944044@csie.ntu.edu.tw) | +886-905-127-972 | [LinkedIn](https://www.linkedin.com/in/hsiu-chi-liu-218b4/) | [github.com/Tomlord1122](https://github.com/Tomlord1122)
+
+## Summary
+
+Go-focused software engineer building reliable distributed systems and cloud-native platforms. Experienced in microservice orchestration, gRPC service modernization, Kubernetes and AWS infrastructure, and production observability with OpenTelemetry. Interested in cloud infrastructure, runtime systems, SRE, and AI platform engineering.
 
 ## Experience
 
@@ -8,9 +12,10 @@ Taipei, Taiwan | [r12944044@csie.ntu.edu.tw](mailto:r12944044@csie.ntu.edu.tw) |
 
 Oct. 2025 - Present
 
-- Designed and implemented a reliable distributed system, improving the end-to-end microservice orchestration success rate to 99%
-- Improved production observability across distributed microservices by instrumenting services with **OpenTelemetry** and standardizing tracing and metrics
-- Built cloud-native backend infrastructure on **AWS** using **Terraform**, **Kubernetes**, **Helm**, **Prometheus**, and **Grafana** to support repeatable deployment and operational monitoring
+- Improved a distributed microservice orchestration system, raising end-to-end workflow success rate to **99%** through reliability-focused service and workflow changes
+- Built production observability with **OpenTelemetry** and the **LGTM** stack, enabling end-to-end tracing and standardized metrics across distributed service workflows
+- Designed and migrated a legacy **C++** gRPC server to a **Go** gRPC service using **cgo**, modernizing the runtime while preserving interoperability
+- Built cloud-native deployment and operations workflows with **AWS**, **Terraform**, **Kubernetes**, **Helm**, **Prometheus**, and **Grafana**
 
 ### Software Engineer Intern, Hewlett-Packard, Taipei
 
@@ -19,20 +24,13 @@ Jul. 2024 - Jul. 2025
 - Built a RESTful data integration API using Go and Gin, enabling internal systems to exchange departmental data through a unified backend interface
 - Improved internal knowledge retrieval by developing a Retrieval-Augmented Generation (RAG) database for faster access to department-specific information
 
-### Industry–Academia Research, NTU & MediaTek MARC, Taipei
-
-Feb. 2024 - Jul. 2025
-
-- Improved RISC-V Vector Extension workload performance by 2%–3% through the design and implementation of custom LLVM instructions
-- Validated custom instruction behavior and performance impact with QEMU simulations for architecture-level analysis
-
 ## Projects
 
 ### [Cometline (Personal Side Project)](https://github.com/orgs/Cometline/repositories)
 
-- Built a desktop AI orchestration platform that abstracts multiple LLM providers behind a unified interface, enabling chat, memory, web search, streaming responses, and tool execution
-- Enabled advanced AI workflows by **supporting coding agent capabilities** and **computer-use automation** for complex task execution across local desktop environments
-- Unified **TUI**, **CLI**, and **desktop experiences** to provide consistent AI orchestration workflows across terminal and graphical environments
+- Built a personal AI platform spanning an **Electron** desktop shell and a **Go** agent runtime, abstracting multiple LLM providers behind a unified interface for streaming responses, tool execution, web search, and semantic memory
+- Designed multi-step agent orchestration with workspace-isolated sessions, workspace-scoped file and shell tools, and computer-use automation
+- Implemented runtime components for execution lifecycle management and streaming event delivery
 
 ### [go-symphony (Personal Side Project)](https://github.com/Tomlord1122/go-symphony)
 
@@ -65,9 +63,12 @@ Durable Execution platform that abstracts away the complexity of building distri
 
 Sep. 2023 - Jul. 2025
 
-- **Relevant Knowledge:** Advanced Compiler, Operating Systems Design and Implementation, Computer Vision with Deep Learning, Web Development
+- **Relevant Knowledge:** Operating Systems Design and Implementation, Computer Vision with Deep Learning, Web Development
 
 ## Skills
 
-- **Programming Languages:** **Golang** (primary); Python, C/C++, TypeScript (development experience)
-- **Technologies & Tools:** Docker, Kubernetes, Terraform, AWS, PostgreSQL, Svelte, React
+- **Programming Languages:** **Golang** (primary); Python, C/C++, TypeScript
+- **Distributed Systems & Backend:** gRPC, Gin, REST, WebSocket, PostgreSQL, SQL
+- **Cloud & Infrastructure:** AWS, Kubernetes, Helm, Terraform, Docker
+- **Observability & Reliability:** OpenTelemetry, Prometheus, Grafana, LGTM stack
+- **AI Systems:** LLM orchestration, RAG, semantic memory
