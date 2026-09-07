@@ -4,7 +4,7 @@ Taipei, Taiwan | [r12944044@csie.ntu.edu.tw](mailto:r12944044@csie.ntu.edu.tw) |
 
 ## Summary
 
-Go-focused software engineer building reliable distributed systems and cloud-native platforms. Experienced in microservice orchestration, gRPC service modernization, Kubernetes and AWS infrastructure, and production observability with OpenTelemetry. Interested in cloud infrastructure, runtime systems, SRE, and AI platform engineering.
+Go-focused software engineer building reliable distributed systems and cloud-native platforms. Experienced in microservice orchestration, Kubernetes and AWS infrastructure, and production observability with OpenTelemetry. Interested in cloud infrastructure, runtime systems, SRE, and AI platform engineering.
 
 ## Experience
 
@@ -14,8 +14,7 @@ Oct. 2025 - Present
 
 - Improved a distributed microservice orchestration system, raising end-to-end workflow success rate to **99%** through reliability-focused service and workflow changes
 - Built production observability with **OpenTelemetry** and the **LGTM** stack, enabling end-to-end tracing and standardized metrics across distributed service workflows
-- Designed and migrated a legacy **C++** gRPC server to a **Go** gRPC service using **cgo**, modernizing the runtime while preserving interoperability
-- Built cloud-native deployment and operations workflows with **AWS**, **Terraform**, **Kubernetes**, **Helm**, **Prometheus**, and **Grafana**
+- Deployed cloud-native infrastructure to production by writing and updating **Terraform** and **Helm** charts for **AWS** and **Kubernetes** workloads
 
 ### Software Engineer Intern, Hewlett-Packard, Taipei
 
